@@ -17,5 +17,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: mode === "production" ? "/HUB-LOBBY/" : "./", // ⚡ funciona local e no GitHub Pages
+  base: "./", // ✅ necessário para deploy no Vercel
 }));
